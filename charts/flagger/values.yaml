@@ -52,8 +52,8 @@ ingressAnnotationsPrefix: ""
 # ingress class used for annotating HTTPProxy objects
 ingressClass: ""
 
-# when enabled, it will add a container level security context for the flagger pod. You may
-# need to disable this if you are running flagger on OpenShift
+# when enabled, it will add a container level security context for the flagger pod. 
+# You may need to disable this if you are running flagger on OpenShift
 securityContext:
   enabled: true
   context:
@@ -63,8 +63,8 @@ securityContext:
     privileged: false
     readOnlyRootFilesystem: true
     
-# when enabled, it will add a pod level security context for the flagger pod. You may
-# need to disable this if you are running flagger on OpenShift
+# when enabled, it will add a pod level security context for the flagger pod. 
+# You may need to disable this if you are running flagger on OpenShift
 podSecurityContext:
   enabled: true
   context:
